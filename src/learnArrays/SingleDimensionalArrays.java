@@ -39,6 +39,13 @@ public class SingleDimensionalArrays {
 			System.out.println("value at index " + i + " : " + machineId[i]);
 		}
 
+		// enhanced for loop/for..each loop - especially designed for collections and
+		// arrays concept
+
+		for (int x : machineId) {
+			System.out.println("Enhance for loop values: " + x);
+		}
+
 	}
 
 }
